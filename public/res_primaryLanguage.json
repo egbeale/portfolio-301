@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "Hello! I'm Elizabeth, an aspiring software development in Seattle.",
+      "description_header": "Hello!",
+      "description": "I'm Elizabeth, an aspiring software development in Seattle. After attending law school for two years, I realized that while I enjoy thinking analytically, I want to use that logic to build things rather than argue with other lawyers. Since I began programming, I've discovered that being a software developer requires the right combination of analytical problem-solving and creativity. I'm particularly enthusiastic about front-end applications because I have an eye for design and functionality. My goal is to find a position where I can continue to create and learn with the same intensity that I have been over the past 3 months.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,94 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "EZ-PC Shopper",
+        "startDate": "Mar 2022",
+        "description": "My final project for Code 201. I collaborated with three talented classmates to create a website that allows shoppers to build their own PC.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/ez/pc.png",
+          "images/portfolio/ez/pc2.png"
         ],
-        "url": "",
+        "url": "https://it-s-not-a-bug-it-s-a-feature.github.io/EZ-PC-Shopper/",
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
           {
             "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-html-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Salmon Cookies",
+        "startDate": "2022",
+        "description": "During my Code 201 course, I designed and deployed a website to meet the needs of an imaginary cookie store: Pat's Salmon Cookies. This project incorporated UI design and the internal code to calculate sales data from all of Pat's cookie stores.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/salmon/cookie1.png",
+          "images/portfolio/salmon/cookie2.png"
         ],
-        "url": "https://github.com",
+        "url": [
+          "https://egbeale.github.io/cookie-stand/",
+          "https://egbeale.github.io/cookie-stand/sales.html" 
+        ],
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-html-plain",
+            "name": "HTML"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          }
+        ]
+      },
+      {
+        "title": "Bus-Mall",
+        "startDate": "2022",
+        "description": "This is a project from my Code 201 class. I created a web app to do consumer research for an imaginary catalogue called BusMall. The site displays 3 randomly generated products each round. When the user chooses their preferred product, their clicks and views are recorded and then displayed in a graph after 25 rounds.",
+        "images": [
+          "images/portfolio/bus/mall.png"
+        ],
+        "url": "https://egbeale.github.io/bus-mall/",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-html-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Code Fellows",
+        "title": "Student",
+        "years": "3.2022 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Javascript"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "HTML",
+          "CSS",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "React",
+          "Bootstrap"
         ]
       }
     ]
