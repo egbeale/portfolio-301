@@ -25,8 +25,9 @@ html {
 }
 
 .header-icon {
-	height: 150px;
-	width: 150px;
+	height: 50px;
+	width: 50px;
+	color: white;
 }
 
 header {
@@ -38,13 +39,14 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #b6cdcb;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
+	// background-image: url(../public/images/banner.png);
 }
 
 header .nav {
@@ -72,12 +74,12 @@ header .nav {
 	z-index: -500;
 	border-top: 5px solid #696969;
 	border-radius: 0 0 5px 5px;
-	background-color: #696969;
+	background-color: #e4dde4;
 	color: white;
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(#ffffff, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -92,17 +94,18 @@ header .nav {
 }
 
 header h1 {
-	font-size: 400%;
+	font-size: 300%;
 	text-align: center;
-	font-weight: 600 !important;
-	color: #353239;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	letter-spacing: 3px;
+	font-weight: 900 !important;
+	color: rgb(77, 77, 77);
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #e9e2cf;
 }
 
 .slider-tab {
@@ -120,7 +123,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #dce1e2;
 	overflow: hidden;
 }
 
@@ -178,7 +181,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: rgb(167, 150, 170);
 	text-align: center;
 }
 
@@ -196,7 +199,7 @@ header h1 {
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	box-shadow: 0 4px 6px rgba(121, 138, 161, 0.3);
 	-webkit-transition: all .20s linear;
 	-moz-transition: all .20s linear;
 	transition: all .20s linear;
@@ -231,7 +234,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #dee5e5;
 }
 
 .experience-icon {
@@ -245,7 +248,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #426f81 !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -256,7 +259,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #ffffff !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -276,7 +279,7 @@ header h1 {
 }
 
 .modal-inside .modal-content {
-	background: white;
+	background: rgb(228, 228, 228);
 }
 
 .bars {
@@ -294,7 +297,7 @@ header h1 {
 .bars li {
 	position: relative;
 	margin-bottom: 60px;
-	background: #ccc;
+	background: rgb(202, 179, 179);
 	height: 42px;
 	border-radius: 3px;
 }
@@ -337,7 +340,7 @@ header h1 {
 	text-align: justify;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 16px;
 }
 
 .awssld__next {
@@ -353,7 +356,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #b0b7b9;
 	padding-bottom: 5%;
 }
 
@@ -368,7 +371,7 @@ header h1 {
 	-moz-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 	opacity: 0;
-	background-color: rgba(51, 51, 51, 0.9);
+	background-color: rgba(182, 176, 176, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -389,7 +392,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #687d80;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -408,13 +411,13 @@ header h1 {
 
 .skill-icon {
 	font-size: 180%;
-	color: white;
+	color: rgb(214, 223, 225);
 	text-align: center;
 	position: relative;
 }
 
 footer {
-	background: #1F1F1F;
+	background: #687d80;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
