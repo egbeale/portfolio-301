@@ -40,13 +40,15 @@ header {
 	text-align: center;
 	overflow: hidden;
 	background-color: #b6cdcb;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	// -webkit-background-size: cover;
+	// -moz-background-size: cover;
+	// -o-background-size: cover;
+	// background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
-	// background-image: url(../public/images/banner.png);
+	background-image: url(../public/images/banner.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 header .nav {
